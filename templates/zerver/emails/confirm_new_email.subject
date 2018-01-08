@@ -2,4 +2,3 @@ Verify your new email address
 {% if realm_name_in_notifications %}
  for {{ realm_uri }}
 {% endif %}
-
