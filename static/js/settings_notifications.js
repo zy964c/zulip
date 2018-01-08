@@ -13,6 +13,7 @@ var notification_settings = [
     "enable_stream_push_notifications",
     "enable_stream_sounds",
     "pm_content_in_desktop_notifications",
+    "enable_realm_name_in_notifications",
 ];
 
 function maybe_bulk_update_stream_notification_setting(notification_checkbox,

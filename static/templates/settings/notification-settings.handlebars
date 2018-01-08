@@ -161,6 +161,19 @@
                         {{t "Digest emails when I'm away" }}
                     </label>
                 </div>
+
+                <div class="input-group" id="realm_name_in_notifications_container">
+                    <label class="checkbox">
+                        <input type="checkbox" name="enable_realm_name_in_notifications" id="enable_realm_name_in_notifications"
+                               {{#if page_params.enable_realm_name_in_notifications}}
+                               checked="checked"
+                               {{/if}} />
+                        <span></span>
+                    </label>
+                    <label for="enable_realm_name_in_notifications" class="inline-block">
+                        {{t "Realm name in subject of notification emails" }}
+                    </label>
+                </div>
             </div>
             {{!-- If you add another control group here, make sure to change
             $("#other_notifications").hide(); in settings.js to
