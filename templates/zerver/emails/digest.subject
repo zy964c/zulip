@@ -1,1 +1,5 @@
-Zulip digest for {{ realm_name }}
+Zulip digest
+{% if realm_name_in_notifications %}
+ for {{ realm_name }}
+{% endif %}
+
